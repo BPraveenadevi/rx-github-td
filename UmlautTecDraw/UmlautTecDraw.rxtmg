@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="UmlautTecDraw"
+      id="ee9d4440-53b1-4f7b-a67f-7c67c0e14a66"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="UmlautTecDraw"
+      id="ee9d4440-53b1-4f7b-a67f-7c67c0e14a66"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

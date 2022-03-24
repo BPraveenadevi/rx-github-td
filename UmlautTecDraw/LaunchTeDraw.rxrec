@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="2783556f-a3e8-4450-9835-bbc94321ed20"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="LaunchTeDraw"
+	namespace="UmlautTecDraw">
+	</codegen>
+	<variables>
+		<var
+		id="a3ec23cb-da38-4796-b8c3-f61a90f5f02d"
+		name="URL">
+			yourapp
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<filename>
+				C:\Program Files\UmlautTecDraw\umlaut TecDraw.exe
+			</filename>
+			<workingdir>
+				C:\Program Files\Umlaut TecDraw
+			</workingdir>
+			<args>
+			</args>
+		</runapprecorditem>
+		<explicitdelayitem
+		duration="300ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="67c2315b-64bc-467a-bb99-45d219284cf5"
+	name="UmlautTecDrawRepository"
+	relativepath="UmlautTecDrawRepository.rxrep">
+		<codegen
+		classname="UmlautTecDrawRepository"
+		namespace="UmlautTecDraw">
+		</codegen>
+		<rootfolder
+		id="1ce5fbff-db89-4e66-95b6-594f92b9d000"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		LaunchTeDraw.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
