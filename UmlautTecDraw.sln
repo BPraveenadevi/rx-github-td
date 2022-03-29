@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+# Ranorex Studio 10.1.0
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4D2F8BF7-51C8-4906-B9FD-3E3197695D77}"
+	ProjectSection(SolutionItems) = postProject
+		Ranorex = .\Ranorex.rxsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmlautTecDraw", "UmlautTecDraw\UmlautTecDraw.csproj", "{9A6B1F4B-B4C3-4FD8-B9F5-9AE906CD8E19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ranorex Automation Helpers", "RanorexAutomationHelpers\Ranorex Automation Helpers.csproj", "{22B10802-BA2B-4C4F-A2D8-90CD4339EE97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A6B1F4B-B4C3-4FD8-B9F5-9AE906CD8E19}.Debug|x86.Build.0 = Debug|x86
+		{9A6B1F4B-B4C3-4FD8-B9F5-9AE906CD8E19}.Debug|x86.ActiveCfg = Debug|x86
+		{9A6B1F4B-B4C3-4FD8-B9F5-9AE906CD8E19}.Release|x86.Build.0 = Release|x86
+		{9A6B1F4B-B4C3-4FD8-B9F5-9AE906CD8E19}.Release|x86.ActiveCfg = Release|x86
+		{22B10802-BA2B-4C4F-A2D8-90CD4339EE97}.Debug|x86.Build.0 = Debug|x86
+		{22B10802-BA2B-4C4F-A2D8-90CD4339EE97}.Debug|x86.ActiveCfg = Debug|x86
+		{22B10802-BA2B-4C4F-A2D8-90CD4339EE97}.Release|x86.Build.0 = Release|x86
+		{22B10802-BA2B-4C4F-A2D8-90CD4339EE97}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

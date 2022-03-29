@@ -93,6 +93,12 @@
 			ref="b44d074a-ae7f-4eef-8736-6f8f575ccc37"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="6279067a-73e2-4c8c-af76-eb0d45d90fed"
+			name="CGMtoUIL"
+			ref="8e448c63-7a46-4d81-8d1d-d790db5369b3"
+			type="Recording">
+			</testmodule>
 			<setup
 			id="86dd0c64-587f-4daf-b0c5-04535f2bbd5e"
 			name="setup">
@@ -132,14 +138,14 @@
 			name="LaunchTeDraw"
 			ref="2783556f-a3e8-4450-9835-bbc94321ed20"
 			type="Recording">
-				<databinding>
+				<missingdatabinding>
 					<var
 					dataname="URL"
 					datasourceid="0e8cb699-1f2c-4e01-9ce9-11d7f66ea82e"
 					variableid="a3ec23cb-da38-4796-b8c3-f61a90f5f02d"
 					variablename="URL">
 					</var>
-				</databinding>
+				</missingdatabinding>
 			</testmodule>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
@@ -183,14 +189,6 @@
 					<testcase
 					id="0e8cb699-1f2c-4e01-9ce9-11d7f66ea82e"
 					name="DT_DrawLine_DCValidation">
-						<setup
-						id="86dd0c64-587f-4daf-b0c5-04535f2bbd5e"
-						name="setup">
-							<testmodule
-							id="9d19bae9-df67-438a-8e7e-7dcb0ef30484"
-							name="LaunchTeDraw">
-							</testmodule>
-						</setup>
 						<testmodule
 						id="f014c211-cb30-4b55-855b-bd58bea63ecf"
 						name="DrawLine">
@@ -223,6 +221,18 @@
 					<testcase
 					id="0f6704ff-9ae6-4464-86a0-f1497370840d"
 					name="BatchConverter">
+						<setup
+						id="86dd0c64-587f-4daf-b0c5-04535f2bbd5e"
+						name="setup">
+							<testmodule
+							id="9d19bae9-df67-438a-8e7e-7dcb0ef30484"
+							name="LaunchTeDraw">
+							</testmodule>
+						</setup>
+						<testmodule
+						id="6279067a-73e2-4c8c-af76-eb0d45d90fed"
+						name="CGMtoUIL">
+						</testmodule>
 					</testcase>
 				</testcase>
 			</testsuite>
